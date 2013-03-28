@@ -1,0 +1,10 @@
+@relation QueryResult
+
+@attribute MARKET_NAME {Nairobi}
+@attribute WHOLESALE_PRICE numeric
+@attribute DATE date 'yyyy-MM-dd\'T\'HH:mm:ss'
+
+@data
+Nairobi,284,2013-03-10T00:00:00
+Nairobi,294,2013-03-11T00:00:00
+Nairobi,300,2013-03-12T00:00:00

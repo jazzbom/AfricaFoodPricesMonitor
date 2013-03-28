@@ -1,0 +1,15 @@
+@relation KENYA_Maize_current
+
+@attribute Country {KENYA}
+@attribute Market {Kisumu,Nairobi,Kitale}
+@attribute RetailPrice numeric
+@attribute WholesalePrice numeric
+@attribute Date {2013-03-07,2013-03-06,2013-03-05}
+
+@data
+KENYA,Kisumu,441,406,2013-03-07
+KENYA,Nairobi,412,361,2013-03-07
+KENYA,Nairobi,412,361,2013-03-06
+KENYA,Kitale,371,348,2013-03-06
+KENYA,Kisumu,441,406,2013-03-06
+KENYA,Nairobi,412,361,2013-03-05

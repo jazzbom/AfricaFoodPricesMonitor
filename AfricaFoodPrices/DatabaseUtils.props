@@ -1,0 +1,12 @@
+# General information on database access can be found here:
+# http://weka.wikispaces.com/Databases
+#
+# Version: $Revision: 5837 $
+
+# The comma-separated list of jdbc drivers to use
+
+
+jdbcDriver= org.h2.Driver
+
+# The url to the experiment database
+jdbcURL= jdbc:h2:~/test
