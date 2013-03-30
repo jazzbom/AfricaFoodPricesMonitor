@@ -2,23 +2,17 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Africa Food Price Monitor And Analysis</title>
+<title>Africa Food Prices Monitoring And Analysis</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
 <link rel="stylesheet" href="leaflet.css" />
- <!--[if lte IE 8]>
-     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
- <![endif]-->
+
+ 
 <link rel="stylesheet" href="mainstyle.css" />
-
-  <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v2/themes/css/cartodb.css" />
-  
-
  <script src="leaflet.js"></script>
  
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="http://code.highcharts.com/2.2.4/highcharts.js"></script>
+ <script src="jquery-1.8.2.min.js"></script>
+<script src="highcharts.js"></script>
 
 <script src="jquery.bpopup.min.js"></script> 
 
@@ -31,9 +25,23 @@
 <link href="leaflet.label.css" rel="stylesheet"/>
  
 <script src="leaf.js" type="text/javascript" ></script>	
-<script src="http://libs.cartocdn.com/cartodb.js/v2/cartodb.js"></script>
 <link rel="stylesheet" href="messi.min.css" />
 <script src="messi.min.js"></script>
+
+<script type="text/javascript">
+ $(document).ready(function() {
+	//	if (navigator.userAgent.match(/chrome/i)) 
+	//	{
+	//		var s= 's';
+	 //      new Messi('<b> Please use Mozilla, Opera or Microsoft Internet Explorer 10 to view this page. <br> Due to Chrome'+s+ ' recent update we are unable to render our page content through chrome. Sorry for the inconvenience.<b>', {title: 'Incompatible browser', autoclose: 30000} );
+	//	}
+		if (navigator.userAgent.match(/MSIE\s(!10.0)/)) {
+    	// ie less than version 10
+			new Messi('<b> Please upgrade your browser to Microsoft Internet Explorer 10 to view this page. <br> Supported browsers are Mozilla, Opera, Microsoft Internet Explorer 10+ Sorry for the inconvenience.<b>', {title: 'Incompatible Inter Explorer browser version', modal: true});
+    		
+			}
+ });
+</script>
 
 </head>
 <body onload="initmap()";>

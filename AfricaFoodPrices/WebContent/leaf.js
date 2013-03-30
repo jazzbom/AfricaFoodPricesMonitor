@@ -11,7 +11,7 @@ function initmap() {
 	  console.log('map running');
 	  // starting latitude and longitude for our map
 	  
-	 
+	  
 	  
 	  var position = new L.LatLng(0,30);
 	
@@ -20,18 +20,24 @@ function initmap() {
 
 	  var mapboxUrl = 'http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png';
 	    var midnight = new L.TileLayer(mapboxUrl, {
-	    	maxZoom: 20,
+	    	maxZoom: 10,
 	    	key: 'e328d58ac6c14fc2b3eaf9cbe762b3a7',
 	    	styleId: 36105, 
 	    	attribution: "Jay Bhosle"
     });
 	  
-	  var map = L.map('map', {
+
+	    
+	    
+	    var map = L.map('map', {
 		    center: position,
-		    zoom: 4,
+		    zoom: zoom,
 		    layers: [midnight]
 		}); 
 	    
+	  
+
+	  
 	  //popups  
       function onEachFeature(feature, layer) {
     	  
@@ -72,9 +78,7 @@ function initmap() {
 	      if (feature.properties && feature.properties.retail_price){
 	            label += feature.properties.wholesale_price;
 	      }
-//	      if (feature.properties && feature.properties.country){
-//	            label += "<b>Country: </b>" + feature.properties.country + "<br>";
-//	      }
+
 	      if (label != "")
 	      {
 	    	  
@@ -246,18 +250,6 @@ function initmap() {
 		  //'http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png'
 		  //'http://{s}.tiles.mapbox.com/v3/cartodb.map-1nh578vv/{z}/{x}/{y}.png'
 	  
-	  
-	  // is our Leaflet map object
-//	  var map = new L.Map('map').setView(position, zoom)
-//	    , mapboxUrl = 'http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png'
-//	    //, mapboxUrl = 'http://tile.stamen.com/toner/{z}/{x}/{y}.jpg' 
-//	    , midnight = new L.TileLayer(mapboxUrl, {
-//	    	maxZoom: 20,
-//			key: 'e328d58ac6c14fc2b3eaf9cbe762b3a7',
-//			styleId: 36105, 
-//	      attribution: "Jay Bhosle"
-//	      });
-//	  map.addLayer(midnight,true);
         
         
 }
