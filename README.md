@@ -9,7 +9,7 @@ The data generated will help to enable the flow of food from surplus areas to de
 and from markets where the prices are low to where prices are high, thus reducing food
 shortages.
 The data to be visualized on an interactive map.
-t will act as decision support system for an agriculture commodity trader so they can
+It will act as decision support system for an agriculture commodity trader so they can
 maximize profits by selling or buying goods which would give the highest possible returns.
 The software upon a user’s preferred choice of country will generate possible trade setups.
 The web application will be able to display prices of food visually on an interactive map of
@@ -17,6 +17,7 @@ Africa.
 Web application to have easy to understand graph chart of the commodities.
 The software is expected to increase competition and resilience to price volatility in Africa.
 1.2 Expected Outcome
+========================
 It is expected to increase competition and resilience to price volatility in African nations.
 If the idea is successfully implemented the web application could be taken up by The Food and
 Agriculture Organization of the United Nations.
