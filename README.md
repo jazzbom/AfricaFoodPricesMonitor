@@ -51,11 +51,9 @@ Non- Functional Requirements
 1. Do indexing of table for faster performance. // Modified
 2. The application must be mobile interface friendly.
 3. The food prices data should be updated regularly.
-4. The application must be compatible on browsers like mozilla,Opera 8+,Internet
-Explorer 8+, Safari.
-5. The system should be optimized to render map images efficiently and fast.
-6. The system must be capable of handling one to many number of simultaneous
+4. The system should be optimized to render map images efficiently and fast.
+5. The system must be capable of handling one to many number of simultaneous
 users.
-7. The system should be maintainable by an administrator.
+6. The system should be maintainable by an administrator.
 8. The admin account should be SSL protected.
 
