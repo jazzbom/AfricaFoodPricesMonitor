@@ -1,6 +1,6 @@
 AfricaFoodPricesMonitor
 =======================
-LIVE SITE ON Redhat OPENSHIFT CLOUD SERVER - http://myafrica-foodprices.rhcloud.com
+LIVE SITE - http://myafrica-foodprices.rhcloud.com ON REDHAT OPENSHIFT CLOUD SERVER
 
 1.1 Purpose
 =======================
