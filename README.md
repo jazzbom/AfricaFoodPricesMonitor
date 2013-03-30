@@ -1,5 +1,7 @@
 AfricaFoodPricesMonitor
 =======================
+LIVE SITE - http://myafrica-foodprices.rhcloud.com
+
 1.1 Purpose
 =======================
 To monitor and analyze prices of staple food for East and Central African countries.
